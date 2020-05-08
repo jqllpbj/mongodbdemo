@@ -9,7 +9,7 @@ import com.mongodb.client.model.Aggregates;
 import com.mongodb.client.model.Indexes;
 import com.mongodb.client.model.Sorts;
 import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
-import javafx.scene.Group;
+
 import jdk.tools.jaotc.Main;
 import org.bson.Document;
 
@@ -42,6 +42,7 @@ public class Task {
         Task task=new Task(database);
         task.show();
         client.close();
+        System.out.println("使用git");
 
     }
 
