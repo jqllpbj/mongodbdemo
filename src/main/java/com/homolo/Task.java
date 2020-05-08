@@ -43,6 +43,7 @@ public class Task {
         task.show();
         client.close();
         System.out.println("使用git");
+        System.out.println("使用git2");
 
     }
 
