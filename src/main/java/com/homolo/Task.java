@@ -42,9 +42,7 @@ public class Task {
         Task task=new Task(database);
         task.show();
         client.close();
-        System.out.println("使用git");
-        System.out.println("使用git2");
-         System.out.println("使用git3");
+        
 
     }
 
