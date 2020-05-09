@@ -28,6 +28,10 @@ import static java.util.Arrays.asList;
 
 public class Test {
     public static void main(String[] args) {
+        System.out.println("使用git");
+        System.out.println("使用git2");
+        System.out.println("使用git3");
+
         /**
          * 副本连接操作
          */
@@ -47,7 +51,7 @@ public class Test {
         MongoClient mongoClient = new MongoClient();
         MongoDatabase database = mongoClient.getDatabase("mydemos");
         database.createCollection("demo1");
-        MongoCollection<Document> collection = database.getCollection("demo1");
+        MongoCollection<Document> collection = database.getCollection("demo");
         /**
          * 插入单个集合
          */
