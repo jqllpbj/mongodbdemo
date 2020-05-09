@@ -32,6 +32,7 @@ public class Test {
         System.out.println("使用git2");
         System.out.println("使用git3");
         System.out.println("使用git4");
+        System.out.println("使用git5");
 
         /**
          * 副本连接操作
